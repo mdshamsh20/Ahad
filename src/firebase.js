@@ -4,12 +4,12 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBrfXTpTX11NbzYXEgQGr40CQFwsIqu0Es",
-  authDomain: "ahad-77ab6.firebaseapp.com",
-  projectId: "ahad-77ab6",
-  storageBucket: "ahad-77ab6.appspot.com",
-  messagingSenderId: "1082670794322",
-  appId: "1:1082670794322:web:6d9085d165126e6999418b"
+  apiKey: "AIzaSyBZl8i666TjogN09KKT2JBaTIbWqpaiDdE",
+  authDomain: "ahad-edcb0.firebaseapp.com",
+  projectId: "ahad-edcb0",
+  storageBucket: "ahad-edcb0.appspot.com",
+  messagingSenderId: "87232791797",
+  appId: "1:87232791797:web:cde8b867f2f50eb21df1bc"
 };
 
 // Initialize Firebase
@@ -17,3 +17,4 @@ export const app = initializeApp(firebaseConfig);
 export const auth = getAuth();
 export const storage = getStorage();
 export const db = getFirestore();
+
